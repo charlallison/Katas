@@ -46,7 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FizzBuzzContainsStrategy.cs" />
     <Compile Include="FizzBuzzGenerator.cs" />
+    <Compile Include="IRunnerStrategy.cs" />
+    <Compile Include="FizzBuzzMultiplesStrategy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
